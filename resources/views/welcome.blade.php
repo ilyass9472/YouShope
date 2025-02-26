@@ -47,9 +47,7 @@
     
                 <!-- Description -->
                 <p class="absolute bottom-12 max-w-2xl mx-auto text-sm px-4 text-gray-300">
-                    Youshope est la solution idéale pour les probléme qui créent leur société en ligne,
-                     Notre solution pour vendre en ligne vous permet de développer votre site e-commerce efficacement. 
-                     Profitez en effet de fonctionnalités avancées pour promouvoir votre boutique en ligne et booster vos ventes.
+                    Youshop est la solution parfaite aux problèmes d'achat de leurs produits en ligne, et notre solution d'achat en ligne vous permet de développer efficacement notre site e-commerce. Profitez de fonctionnalités avancées pour acheter votre produit en ligne et valoriser vos envies.
                 </p>
             </div>
         </div>

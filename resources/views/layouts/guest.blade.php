@@ -14,13 +14,10 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans" class="relative min-h-screen bg-cover bg-center">
-        <div class="relative min-h-screen bg-cover bg-center" 
-            style="background-image: url('https://images.pexels.com/photos/4065133/pexels-photo-4065133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">
-            
+    <body class="font-sans" class="relative min-h-screen bg-cover bg-center ">   
             <!-- Overlay -->
             <div class="absolute inset-0 bg-black/50"></div>
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0">
+        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0" style="background-image: url('https://images.pexels.com/photos/4065133/pexels-photo-4065133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">
             <div>
                 {{-- <a href="/">
                     <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
