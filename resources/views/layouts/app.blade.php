@@ -21,7 +21,7 @@
 
             <!-- Page Heading -->
             @if (isset($header))
-            <header class="relative top-0 left-0 w-full bg-transparent shadow z-50 text-white">
+            <header class="relative top-0 left-0 w-full bg-transparent shadow  text-white">
 
                 
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">

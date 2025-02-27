@@ -41,9 +41,20 @@
                 </div>
     
                 <!-- CTA Button -->
-                <a href="/products/index" class="px-8 py-3 border border-white text-sm uppercase tracking-wider hover:bg-white hover:text-black transition-all duration-300">
-                    Let's Go
-                </a>
+                <x-dropdown align="right" width="48">
+                    <x-slot name="trigger">
+                        <a href="/login" class="px-8 py-3 border border-white text-sm uppercase tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+                            {{ __('voire mes product') }}
+                        </a>
+                    </x-slot>
+                
+                    <x-slot name="content">
+                        <x-dropdown-link :href="route('login')">
+                            {{ __('Login') }}
+                        </x-dropdown-link>
+                    </x-slot>
+                </x-dropdown>
+                
     
                 <!-- Description -->
                 <p class="absolute bottom-12 max-w-2xl mx-auto text-sm px-4 text-gray-300">
