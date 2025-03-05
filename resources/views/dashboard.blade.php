@@ -1,6 +1,6 @@
 
 <x-app-layout>
-    @role('admin')
+   
         <div class="relative">
             <x-slot name="header">
                 <h2 class="font-semibold text-xl text-white leading-tight z-50">
@@ -8,7 +8,7 @@
                 </h2>
             </x-slot>
         </div>
-    @endrole
+
 
     <div class="py-12 z-50" id="messageDeAutentification">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
