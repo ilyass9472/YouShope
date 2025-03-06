@@ -6,6 +6,7 @@ use App\Http\Controllers\WatchController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\watchesProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,7 +30,7 @@ Route::middleware(['auth', 'role:admin'])->get('/dashboard', function () {
 Route::middleware(['auth', 'role:client'])->get('/clientDashboard', function () {
     return view('clientDashboard');
 })->name('clientDashboard');
-
+Route::resource('watchesProduct',watchesProductController::class);
 
 Route::post('/cart/add', [CartController::class, 'addToCart'])->name('cart.add');
 Route::post('/cart/remove', [CartController::class, 'removeFromCart'])->name('cart.remove');
